@@ -4,10 +4,42 @@
 <head>
   <meta charset="utf-8">
   <title>Analizador de texto</title>
+  <header>
+  <h1>Analizador de texto</h1>
+</header>
+  <p>Bienvenida a la mejor herramienta para analizar rápidamente tus textos</p>
+  
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+  <form>
+  <textarea name="textarea" value="user-input" cols="65" rows="16" placeholder="Escribe aquí tu texto"></textarea>
+
+  <div class="lista">
+  <ul>
+    <li>Palabras:</li>
+    <li>Caracteres:</li>
+    <li>Caracteres sin espacio:</li>
+    <li>Números:</li>
+    <li>Suma números:</li>
+    <li>Promedio longitud:</li>
+  </ul>
+</div>
+
+
+  </br>
+  <button id="reset-button" value="reset-button type="reset"><b>Limpiar métricas</b></button>
+  <!--<input type="reset" value="Limpiar métricas"/>-->
+</form>
+</br></br>
+
   <script src="index.js" type="module"></script>
 </body>
+
+<div>
+<footer>
+  <p>By Marisol Ramírez</p>
+</footer>
+</div>
 </html>

@@ -1,0 +1,55 @@
+header{
+    display: flex;
+    justify-content: center;
+    font-family: "Helvetica";
+    color: #b5838d;
+    
+      }
+
+p{
+    display: flex;
+    justify-content: center;
+    font-family: "Helvetica";
+    color:#333333
+}
+
+[name="textarea"]{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: #ffb4a2;
+    }
+
+
+.lista{
+    display: flex;
+    justify-content: center;
+    font-family: "Helvetica";
+}
+
+#reset-button{
+    font-family: "Helvetica";
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: #e5989b
+    
+}
+    
+
+body{
+    background-color: ffcdb2;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-family: "Helvetica";
+    color:#333333
+    
+}
+      
+
+
+
